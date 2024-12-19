@@ -1,0 +1,55 @@
+.container {
+	width: 90%;
+	height: 100%;
+	background-color: gray;
+	border-radius: 5px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+
+	margin: 10px;
+}
+
+.text {
+	color: black;
+	flex: 1;
+	text-align: center;
+}
+
+.sus {
+	background-color: yellow;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.save-button1 {
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: 10px;
+	font-size: 30px;
+}
+
+.save-button2 {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 10px;
+	font-size: 30px;
+}
+
+.hide-suspended {
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 10px;
+	font-size: 30px;
+}
+
